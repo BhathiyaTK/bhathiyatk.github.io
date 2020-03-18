@@ -191,20 +191,28 @@ header {
     position: absolute;
     width: auto;
     height: auto;
-    margin: 40px 20%;
+    /*margin: 14% 20%;*/
     background-color: #45489a;
-    padding: 10px;
+    padding: 10% 25% 8%;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 0 0 50% 50%;
+    background-image: radial-gradient(#45489a 10%, rgba(0,0,0,0) 90%);
 }
 
 .sidebar-navigation .logo img {
-    height: 150px;
+    height: 35%;
     width: 100%;
     border-radius: 50%;
     border: 1px solid rgba(250, 250, 250, 0.5);
+    box-shadow: 1px 1px 15px 5px rgba(0,0,0,0.3);
 }
-
+.sidebar-navigation .side-divider{
+    position: relative;
+    top: 40%;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #45489a;
+}
 .sidebar-navigation .logo a {
     text-decoration: none;
     color: #fff;
@@ -225,7 +233,7 @@ header {
 
 .sidebar-navigation nav {
     position: relative;
-    top: 65%;
+    top: 64%;
     left: 60%;
     -webkit-transform: translateX(-60%) translateY(-60%);
     -moz-transform: translateX(-60%) translateY(-60%);
