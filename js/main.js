@@ -1,7 +1,11 @@
+window.addEventListener("load", function(){
+    var fixed_height = $("#my-qualities-sub-div-2").height();
+    $("#my-qualities-sub-div-1").css('height', fixed_height);
+});
+
 jQuery(document).ready(function($) {
 
     'use strict';
-
 
     $(".Modern-Slider").slick({
         autoplay: true,

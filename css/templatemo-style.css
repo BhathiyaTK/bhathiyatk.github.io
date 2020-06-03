@@ -650,12 +650,14 @@ nav .active-section span {
 #about #faq-list a.collapsed i::before {
     content: "\f055" !important;
 }
-
-.my-qualities {
+.my-qualities .my-qualities-sub-div{
     background: #fff;
-    padding: 30px;
+    padding: 15px 30px;
+    font-size: 13.5px;
 }
-
+.white-div-shadow{
+    box-shadow: 1px 6px 18px 1px rgba(0,0,0,0.05);
+}
 
 /* Projects Style */
 
@@ -736,6 +738,7 @@ nav .active-section span {
 }
 
 #project .item .image img {
+    border: 1px solid rgba(69, 72, 154, 0.2);
     width: 100%;
     overflow: hidden;
 }
