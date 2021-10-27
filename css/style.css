@@ -38,7 +38,7 @@ p {
   width: 100%;
   text-align: left;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .section-heading h1 {
@@ -630,8 +630,12 @@ nav .active-section span {
   top: 16px;
 }
 
-#about #faq-list p {
+#about p {
   margin-bottom: 20px;
+  color: #343434;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
 }
 
 #about #faq-list a.collapse {
